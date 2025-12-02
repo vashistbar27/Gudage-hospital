@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "buildCommand": "npm install",
+  "devCommand": "node server-simple.js",
+  "env": {
+    "NODE_ENV": "production"
+  }
+}

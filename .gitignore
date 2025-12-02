@@ -1,0 +1,13 @@
+cat > .gitignore << 'EOF'
+node_modules/
+.env
+.DS_Store
+public/uploads/*
+!public/uploads/.gitkeep
+*.log
+coverage/
+.vscode/
+.idea/
+EOF
+.vercel
+.env*.local
